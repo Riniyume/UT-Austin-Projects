@@ -1,2 +1,2 @@
 # UT-Austin-Projects
-This is a compile of all the homework and projects I have done within UT Austin as a student. Please access the branches for each course work.
+This branch consist of all the works I've done within the program called Processing. This also contains the group project of the The Somewhat Possible Game where I've designed the user interface and sound. 
