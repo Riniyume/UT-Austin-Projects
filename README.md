@@ -1,2 +1,2 @@
-Jennifer Ann Truong, jat5244, Jennifer.Truong143@gmail.com\
-Monica Pham, mp46424, monicapham@utexas.edu
+# Database
+This branch contains all the projects I've worked on with a partner that consist of SQL, PostgresSQL, MongoDB, Neo4j, BigQuery mainly through our Google Cloud Platform we had for the semester. 
