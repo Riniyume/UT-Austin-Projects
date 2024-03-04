@@ -1,2 +1,2 @@
-# UT-Austin-Projects
-This is a compile of all the homework and projects I have done within UT Austin as a student. Please access the branches for each course work.
+# Python-Part-1
+Learning how to code for python for the first time and how to think like a programmer. This course taught me the basics such as lists, arrays, OOP, for/while loops, and etc. 
