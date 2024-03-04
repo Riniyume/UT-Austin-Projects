@@ -1,0 +1,27 @@
+// Code from William Bulko's Code Library
+let teams = [
+    Team(city: "Los Angeles", name: "Dodgers",
+        league: "National League"),
+    Team(city: "San Francisco", name: "Giants",
+        league: "National League"),
+    Team(city: "Chicago", name: "Cubs",
+        league: "National League"),
+    Team(city: "St. Louis", name: "Cardinals",
+        league: "National League"),
+    Team(city: "New York", name: "Mets",
+        league: "National League"),
+    Team(city: "Atlanta", name: "Braves",
+        league: "National League"),
+    Team(city: "New York", name: "Yankees",
+        league: "American League"),
+    Team(city: "Boston", name: "Red Sox",
+        league: "American League"),
+    Team(city: "Texas", name: "Rangers",
+        league: "American League"),
+    Team(city: "Houston", name: "Astros",
+        league: "American League"),
+    Team(city: "Detroit", name: "Tigers",
+        league: "American League"),
+    Team(city: "Kansas City", name: "Royals",
+        league: "American League")
+]
