@@ -1,0 +1,18 @@
+// Code from William Bulko's Code Library
+public let teams = [
+    "Braves", "Marlins", "Phillies", "Mets", "Nationals",
+    "Pirates", "Brewers", "Reds", "Cubs", "Cardinals",
+    "Diamondbacks", "Dodgers", "Giants", "Padres", "Rockies",
+    "Rays", "Orioles", "Yankees", "Blue Jays", "Red Sox",
+    "Twins", "Guardians", "White Sox", "Tigers", "Royals",
+    "Rangers", "Astros", "Angels", "Mariners", "Athletics"
+    ]
+
+public let cities = [
+    "Atlanta", "Miami", "Philadelphia", "New York", "Washington",
+    "Pittsburgh", "Milwaukee", "Cincinnati", "Chicago", "St. Louis",
+    "Arizona", "Los Angeles", "San Francisco", "San Diego", "Colorado",
+    "Tampa Bay", "Baltimore", "New York", "Toronto", "Boston",
+    "Minnesota", "Cleveland", "Chicago", "Detroit", "Kansas City",
+    "Texas", "Houston", "Los Angeles", "Seattle", "Oakland"
+    ]
