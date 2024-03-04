@@ -1,0 +1,26 @@
+// Code from William Bulko's Code Library
+func isValidEmail(_ email: String) -> Bool {
+   let emailRegEx = 
+       "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+   let emailPred = NSPredicate(format:"SELF MATCHES %@",
+       emailRegEx)
+   return emailPred.evaluate(with: email)
+}
+  
+func isValidPassword(_ password: String) -> Bool {
+   let minPasswordLength = 6
+   return password.count >= minPasswordLength
+}
+
+Auth.auth().currentUser contains the current user, if there is one.
+Auth.auth().currentUser.email contains the userID (for email/password)
+
+func isUserLoggedIn() -> Bool {
+  return Auth.auth().currentUser != nil
+}
+
+if isUserLoggedIn() {
+   // Show logout page
+} else {
+   // Show login page
+}
