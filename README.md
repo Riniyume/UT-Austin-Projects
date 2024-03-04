@@ -1,2 +1,2 @@
-# UT-Austin-Projects
-This is a compile of all the homework and projects I have done within UT Austin as a student. Please access the branches for each course work.
+# Jupyter-Notebook-Projects
+Learned how to data clean, data analyze and visualize through multiple homework assignments and the VAST Challenge Project.
