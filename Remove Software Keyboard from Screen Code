@@ -1,0 +1,22 @@
+// Got this from William Bulko's Code Library
+// Called when 'return' key pressed
+
+    func textFieldShouldReturn(_ textField:UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    // Called when the user clicks on the view outside of the UITextField
+
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+
+// Also:
+// (1) Add "UITextFieldDelegate" to the class definition
+
+class ViewController: UIViewController, UITextFieldDelegate {
+
+// (2) Add the following line to the body of function viewDidLoad()
+
+nameField.delegate = self
