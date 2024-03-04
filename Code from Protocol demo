@@ -1,0 +1,25 @@
+// I got this code from William Bulko's code library
+protocol Resizable {
+    
+    var width: Float { get set }
+    var height: Float { get set }
+    
+    init(width: Float, height: Float)
+    
+    func resizeBy(wFactor: Float,
+                  hFactor: Float)
+}
+
+class Rectangle: Resizable {
+    var width: Float
+    var height: Float
+    
+    required init(width: Float, height: Float) {
+        self.width = width
+        self.height = height
+    }
+    func resizeBy(wFactor: Float, hFactor: Float) {
+        width *= wFactor
+        height *= hFactor
+    }
+}
